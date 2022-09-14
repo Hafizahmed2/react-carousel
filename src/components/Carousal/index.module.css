@@ -1,0 +1,22 @@
+.carousel {
+  overflow: hidden;
+  width: 830px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.carousel_inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+.carousel_wrapper {
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-right: 10px;
+}
+.navigator{
+  cursor: pointer;
+}

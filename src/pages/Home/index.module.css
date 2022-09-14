@@ -1,0 +1,37 @@
+.product {
+  object-fit: cover;
+  width: 200px;
+}
+
+.product_wrapper{
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#333;
+  transition: transform .1s;
+}
+
+.product_name {
+  margin-top: 2px;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.product_price{
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.image_wrapper{
+  overflow: hidden;
+  width: 200px;
+  height: 301px;
+
+}
+
+.image_wrapper img {
+  transition: transform .5s ease
+}
+
+.image_wrapper:hover img {
+  transform: scale(1.1);
+}

@@ -1,0 +1,7 @@
+.carousel_item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+    margin-right: 10px;
+}
